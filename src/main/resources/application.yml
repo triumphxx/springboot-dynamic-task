@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api/test
+  tomcat:
+    uri-encoding: UTF-8
+
+schedule:
+  corn1: 0/5 * * * * ?
+  corn2: 0/10 * * * * ?
